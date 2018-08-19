@@ -1,0 +1,7 @@
+<p>Department id {{ departmentId }}</p>
+<p>
+    <a [routerLink]="['overview']">Overview</a>
+    <a [routerLink]="['contact']">Contact</a>
+</p>
+<router-outlet></router-outlet> 
+<button (click)="goToDepartments()">Back</button>
